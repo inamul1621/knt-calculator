@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stl.css">
+</head>
+<body>
+    <h3 id="knt">Inamul's Calculator</h3>
+    <div id="calculator">
+        <input type="text" id="result" disabled><br>
+        <input type="button" value="7" onclick="appendValue('7')">
+        <input type="button" value="8" onclick="appendValue('8')">
+        <input type="button" value="9" onclick="appendValue('9')">
+        <input id="opr" type="button" value="/" onclick="appendValue('/')"><br>
+        <input type="button" value="4" onclick="appendValue('4')">
+        <input type="button" value="5" onclick="appendValue('5')">
+        <input type="button" value="6" onclick="appendValue('6')">
+        <input id="opr" type="button" value="*" onclick="appendValue('*')"><br>
+        <input type="button" value="1" onclick="appendValue('1')">
+        <input type="button" value="2" onclick="appendValue('2')">
+        <input type="button" value="3" onclick="appendValue('3')">
+        <input id="opr" type="button" value="-" onclick="appendValue('-')"><br>
+        <input type="button" value="0" onclick="appendValue('0')">
+        <input id="clear" type="button" value="C" onclick="clearResult('C')">
+        <input id="res" type="button" value="=" onclick="calculate('=')">
+        <input id="opr" type="button" value="+" onclick="appendValue('+')">
+    </div>
+    <script src="cal.js"></script>
+</body>
+</html>
